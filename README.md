@@ -115,7 +115,7 @@ A real‐time chat application in **Go** that showcases:
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/<your_username>/chat-app.git
+   git clone https://github.com/jasbirnetwork/chat-app.git
    cd chat-app
 
    ```
