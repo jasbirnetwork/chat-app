@@ -81,30 +81,32 @@ A real‐time chat application in **Go** that showcases:
 
 ## Project Structure
 
-chat-app/
-├── bot/
-│ └── bot.go # Bot Worker
-├── handlers/
-│ ├── login.go
-│ └── ws.go
-├── hub/
-│ └── hub.go
-├── models/
-│ └── message.go
-├── rabbitmq/
-│ └── rabbitmq.go
-├── static/
-│ ├── css/
-│ │ └── styles.css
-│ └── js/
-│ └── app.js
-├── templates/
-│ ├── login.html
-│ └── chat.html
-├── tests/
-│ └── stock_test.go
-├── main.go
-└── go.mod
+```bash
+    chat-app/
+    ├── bot/
+    │ └── bot.go # Bot Worker
+    ├── handlers/
+    │ ├── login.go
+    │ └── ws.go
+    ├── hub/
+    │ └── hub.go
+    ├── models/
+    │ └── message.go
+    ├── rabbitmq/
+    │ └── rabbitmq.go
+    ├── static/
+    │ ├── css/
+    │ │ └── styles.css
+    │ └── js/
+    │ └── app.js
+    ├── templates/
+    │ ├── login.html
+    │ └── chat.html
+    ├── tests/
+    │ └── stock_test.go
+    ├── main.go
+    └── go.mod
+```
 
 ---
 
